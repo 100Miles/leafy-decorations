@@ -28,21 +28,26 @@ html {
 }
 
 .nav a:hover {
-
+  background-color: #fff;
+  color: #145b1d;
+  background-image: url(../images/leaf-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .banner {
-  background-image: url(../images/banner.jpg);
+  background-image: linear-gradient(to bottom, transparent, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url(../images/banner.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .banner-content {
   color: #fff;
-  padding-top: 20em;
+  padding-top: 300px;
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
-  background-size: 90px;
+  background-size: 100px;
   background-position: left;
 }
 
